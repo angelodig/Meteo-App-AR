@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0203E08525C7F4B600986A6D /* cloud.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 0203E08425C7F4B600986A6D /* cloud.usdz */; };
+		0203E08825C7F4E500986A6D /* sun.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 0203E08725C7F4E500986A6D /* sun.usdz */; };
+		02318E3725D155ED004268A8 /* rain.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 02318E3625D155ED004268A8 /* rain.usdz */; };
+		024E4FDD25B97624002BC428 /* ARWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024E4FDC25B97624002BC428 /* ARWeatherView.swift */; };
+		02714F8825D151F7002C057C /* fog.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 02714F8725D151F7002C057C /* fog.usdz */; };
+		02714F8C25D1520A002C057C /* ARWeatherScene.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 02714F8B25D1520A002C057C /* ARWeatherScene.rcproject */; };
+		02B5088D25AD99B900AD2993 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B5088C25AD99B900AD2993 /* WeatherViewModel.swift */; };
+		02CC318A25CA9C3900CC1F99 /* snow.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 02CC318925CA9C3900CC1F99 /* snow.usdz */; };
+		02CC318D25CA9C4C00CC1F99 /* drizzle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 02CC318C25CA9C4C00CC1F99 /* drizzle.usdz */; };
+		02CC319025CA9C5100CC1F99 /* thunder.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 02CC318F25CA9C5100CC1F99 /* thunder.usdz */; };
+		02CC319325CA9FC800CC1F99 /* default.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 02CC319225CA9FC800CC1F99 /* default.usdz */; };
+		02CD21CC25ACABAD00053BC7 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CD21CB25ACABAD00053BC7 /* Weather.swift */; };
+		02D6938925C54B05004F4768 /* ARWeatherSceneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D6938825C54B05004F4768 /* ARWeatherSceneViewModel.swift */; };
+		02EA09E725AC38C8007AE189 /* zen_meteo_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EA09E625AC38C8007AE189 /* zen_meteo_appApp.swift */; };
+		02EA09E925AC38C8007AE189 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EA09E825AC38C8007AE189 /* WeatherView.swift */; };
+		02EA09EB25AC38CF007AE189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02EA09EA25AC38CF007AE189 /* Assets.xcassets */; };
+		02EA09EE25AC38CF007AE189 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02EA09ED25AC38CF007AE189 /* Preview Assets.xcassets */; };
+		02EA09FB25AC4BC8007AE189 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EA09FA25AC4BC8007AE189 /* APIResponse.swift */; };
+		02EA09FE25AC4EC9007AE189 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EA09FD25AC4EC9007AE189 /* WeatherService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0203E08425C7F4B600986A6D /* cloud.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = cloud.usdz; sourceTree = "<group>"; };
+		0203E08725C7F4E500986A6D /* sun.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = sun.usdz; sourceTree = "<group>"; };
+		02318E3625D155ED004268A8 /* rain.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = rain.usdz; sourceTree = "<group>"; };
+		024E4FDC25B97624002BC428 /* ARWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARWeatherView.swift; sourceTree = "<group>"; };
+		02714F8725D151F7002C057C /* fog.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = fog.usdz; sourceTree = "<group>"; };
+		02714F8B25D1520A002C057C /* ARWeatherScene.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = ARWeatherScene.rcproject; sourceTree = "<group>"; };
+		02B5088C25AD99B900AD2993 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		02CC318925CA9C3900CC1F99 /* snow.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = snow.usdz; sourceTree = "<group>"; };
+		02CC318C25CA9C4C00CC1F99 /* drizzle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = drizzle.usdz; sourceTree = "<group>"; };
+		02CC318F25CA9C5100CC1F99 /* thunder.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = thunder.usdz; sourceTree = "<group>"; };
+		02CC319225CA9FC800CC1F99 /* default.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = default.usdz; sourceTree = "<group>"; };
+		02CD21CB25ACABAD00053BC7 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		02D6938825C54B05004F4768 /* ARWeatherSceneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARWeatherSceneViewModel.swift; sourceTree = "<group>"; };
+		02EA09E325AC38C8007AE189 /* zen-meteo-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zen-meteo-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02EA09E625AC38C8007AE189 /* zen_meteo_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zen_meteo_appApp.swift; sourceTree = "<group>"; };
+		02EA09E825AC38C8007AE189 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		02EA09EA25AC38CF007AE189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02EA09ED25AC38CF007AE189 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02EA09EF25AC38CF007AE189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02EA09FA25AC4BC8007AE189 /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		02EA09FD25AC4EC9007AE189 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02EA09E025AC38C8007AE189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0203E08325C7F49300986A6D /* Models icon weather */ = {
+			isa = PBXGroup;
+			children = (
+				0203E08725C7F4E500986A6D /* sun.usdz */,
+				02CC318925CA9C3900CC1F99 /* snow.usdz */,
+				02CC318C25CA9C4C00CC1F99 /* drizzle.usdz */,
+				02318E3625D155ED004268A8 /* rain.usdz */,
+				02CC318F25CA9C5100CC1F99 /* thunder.usdz */,
+				02714F8725D151F7002C057C /* fog.usdz */,
+				0203E08425C7F4B600986A6D /* cloud.usdz */,
+				02CC319225CA9FC800CC1F99 /* default.usdz */,
+			);
+			path = "Models icon weather";
+			sourceTree = "<group>";
+		};
+		02EA09DA25AC38C8007AE189 = {
+			isa = PBXGroup;
+			children = (
+				02EA09E525AC38C8007AE189 /* zen-meteo-app */,
+				02EA09E425AC38C8007AE189 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02EA09E425AC38C8007AE189 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02EA09E325AC38C8007AE189 /* zen-meteo-app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02EA09E525AC38C8007AE189 /* zen-meteo-app */ = {
+			isa = PBXGroup;
+			children = (
+				02EA09E625AC38C8007AE189 /* zen_meteo_appApp.swift */,
+				02CD21CB25ACABAD00053BC7 /* Weather.swift */,
+				02B5088C25AD99B900AD2993 /* WeatherViewModel.swift */,
+				02EA09E825AC38C8007AE189 /* WeatherView.swift */,
+				024E4FDC25B97624002BC428 /* ARWeatherView.swift */,
+				02D6938825C54B05004F4768 /* ARWeatherSceneViewModel.swift */,
+				02714F8B25D1520A002C057C /* ARWeatherScene.rcproject */,
+				0203E08325C7F49300986A6D /* Models icon weather */,
+				02EA09F925AC4690007AE189 /* API */,
+				02EA09EA25AC38CF007AE189 /* Assets.xcassets */,
+				02EA09EF25AC38CF007AE189 /* Info.plist */,
+				02EA09EC25AC38CF007AE189 /* Preview Content */,
+			);
+			path = "zen-meteo-app";
+			sourceTree = "<group>";
+		};
+		02EA09EC25AC38CF007AE189 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				02EA09ED25AC38CF007AE189 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		02EA09F925AC4690007AE189 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				02EA09FD25AC4EC9007AE189 /* WeatherService.swift */,
+				02EA09FA25AC4BC8007AE189 /* APIResponse.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02EA09E225AC38C8007AE189 /* zen-meteo-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02EA09F225AC38CF007AE189 /* Build configuration list for PBXNativeTarget "zen-meteo-app" */;
+			buildPhases = (
+				02EA09DF25AC38C8007AE189 /* Sources */,
+				02EA09E025AC38C8007AE189 /* Frameworks */,
+				02EA09E125AC38C8007AE189 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "zen-meteo-app";
+			productName = "zen-meteo-app";
+			productReference = 02EA09E325AC38C8007AE189 /* zen-meteo-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02EA09DB25AC38C8007AE189 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					02EA09E225AC38C8007AE189 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 02EA09DE25AC38C8007AE189 /* Build configuration list for PBXProject "zen-meteo-app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02EA09DA25AC38C8007AE189;
+			productRefGroup = 02EA09E425AC38C8007AE189 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02EA09E225AC38C8007AE189 /* zen-meteo-app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02EA09E125AC38C8007AE189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02EA09EE25AC38CF007AE189 /* Preview Assets.xcassets in Resources */,
+				0203E08525C7F4B600986A6D /* cloud.usdz in Resources */,
+				02CC319025CA9C5100CC1F99 /* thunder.usdz in Resources */,
+				02318E3725D155ED004268A8 /* rain.usdz in Resources */,
+				02714F8825D151F7002C057C /* fog.usdz in Resources */,
+				02CC319325CA9FC800CC1F99 /* default.usdz in Resources */,
+				0203E08825C7F4E500986A6D /* sun.usdz in Resources */,
+				02CC318A25CA9C3900CC1F99 /* snow.usdz in Resources */,
+				02EA09EB25AC38CF007AE189 /* Assets.xcassets in Resources */,
+				02CC318D25CA9C4C00CC1F99 /* drizzle.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02EA09DF25AC38C8007AE189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D6938925C54B05004F4768 /* ARWeatherSceneViewModel.swift in Sources */,
+				02EA09FE25AC4EC9007AE189 /* WeatherService.swift in Sources */,
+				02B5088D25AD99B900AD2993 /* WeatherViewModel.swift in Sources */,
+				024E4FDD25B97624002BC428 /* ARWeatherView.swift in Sources */,
+				02EA09E925AC38C8007AE189 /* WeatherView.swift in Sources */,
+				02EA09FB25AC4BC8007AE189 /* APIResponse.swift in Sources */,
+				02EA09E725AC38C8007AE189 /* zen_meteo_appApp.swift in Sources */,
+				02714F8C25D1520A002C057C /* ARWeatherScene.rcproject in Sources */,
+				02CD21CC25ACABAD00053BC7 /* Weather.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		02EA09F025AC38CF007AE189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02EA09F125AC38CF007AE189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02EA09F325AC38CF007AE189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"zen-meteo-app/Preview Content\"";
+				DEVELOPMENT_TEAM = V2852358CX;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "zen-meteo-app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.angelodigianfilippo.zen-meteo-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02EA09F425AC38CF007AE189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"zen-meteo-app/Preview Content\"";
+				DEVELOPMENT_TEAM = V2852358CX;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "zen-meteo-app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.angelodigianfilippo.zen-meteo-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02EA09DE25AC38C8007AE189 /* Build configuration list for PBXProject "zen-meteo-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02EA09F025AC38CF007AE189 /* Debug */,
+				02EA09F125AC38CF007AE189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02EA09F225AC38CF007AE189 /* Build configuration list for PBXNativeTarget "zen-meteo-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02EA09F325AC38CF007AE189 /* Debug */,
+				02EA09F425AC38CF007AE189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02EA09DB25AC38C8007AE189 /* Project object */;
+}
